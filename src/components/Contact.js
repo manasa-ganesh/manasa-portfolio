@@ -33,15 +33,15 @@ function Contact() {
 
                         <div className="flex flex-col space-y-6">
                             <a
-                                href="mailto:your.email@example.com"
+                                href="mailto:manasaganesh1435@gmail.com"
                                 className="flex items-center justify-center gap-3 px-6 py-3 bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-white rounded-lg hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors duration-300"
                             >
                                 <EnvelopeIcon className="h-6 w-6" />
-                                <span>your.email@example.com</span>
+                                <span>manasaganesh1435@gmail.com</span>
                             </a>
 
                             <a
-                                href="https://github.com/yourusername"
+                                href="https://github.com/manasa-ganesh"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="flex items-center justify-center gap-3 px-6 py-3 bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-white rounded-lg hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors duration-300"
@@ -51,7 +51,7 @@ function Contact() {
                             </a>
 
                             <a
-                                href="https://linkedin.com/in/yourusername"
+                                href="http://www.linkedin.com/in/bandaru-nagamanasa"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="flex items-center justify-center gap-3 px-6 py-3 bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-white rounded-lg hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors duration-300"

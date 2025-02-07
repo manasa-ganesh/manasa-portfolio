@@ -7,7 +7,8 @@ import {
     WindowIcon,
     CloudIcon,
     CircleStackIcon,
-    PaintBrushIcon
+    PaintBrushIcon,
+    BugAntIcon
 } from '@heroicons/react/24/outline';
 
 function Skills() {
@@ -15,11 +16,11 @@ function Skills() {
         { name: 'Frontend Development', icon: WindowIcon, description: 'React, Next.js, TypeScript' },
         { name: 'Backend Development', icon: ServerIcon, description: 'Node.js, Express, Python' },
         { name: 'Database Management', icon: CircleStackIcon, description: 'MongoDB, PostgreSQL' },
-        { name: 'Cloud Services', icon: CloudIcon, description: 'AWS, Firebase, Vercel' },
-        { name: 'UI/UX Design', icon: PaintBrushIcon, description: 'Figma, Adobe XD' },
+        { name: 'Cloud Services', icon: CloudIcon, description: 'AWS' },
+        { name: 'UI/UX Design', icon: PaintBrushIcon, description: 'Figma' },
         { name: 'Version Control', icon: CodeBracketIcon, description: 'Git, GitHub' },
-        { name: 'DevOps', icon: CubeIcon, description: 'Docker, CI/CD' },
-        { name: 'Command Line', icon: CommandLineIcon, description: 'Bash, PowerShell' }
+        { name: 'Command Line', icon: CommandLineIcon, description: 'Bash, PowerShell' },
+        { name: 'Testing', icon: BugAntIcon, description: 'Unit, Manual, Agile, ETL' }
     ];
 
     return (

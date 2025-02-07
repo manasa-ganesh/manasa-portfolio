@@ -4,31 +4,24 @@ import {
     CodeBracketIcon, 
     LightBulbIcon, 
     RocketLaunchIcon,
-    CommandLineIcon
+    CommandLineIcon,
+    BookOpenIcon,
+    CheckBadgeIcon,
+    GlobeAltIcon
 } from '@heroicons/react/24/outline';
 import profileImage from '../assets/WhatsApp Image 2025-02-06 at 8.37.01 PM.jpeg';
 
 function AboutMe() {
     const highlights = [
         { 
-            icon: CodeBracketIcon, 
-            title: "Full Stack Development",
+            icon: AcademicCapIcon, 
+            title: "Education",
             description: "Proficient in both frontend and backend technologies"
         },
         { 
-            icon: LightBulbIcon, 
-            title: "Problem Solving",
+            icon: GlobeAltIcon, 
+            title: "Experience",
             description: "Strong analytical and debugging skills"
-        },
-        { 
-            icon: RocketLaunchIcon, 
-            title: "Fast Learner",
-            description: "Quick to adapt to new technologies"
-        },
-        { 
-            icon: CommandLineIcon, 
-            title: "Clean Code",
-            description: "Focus on maintainable and efficient code"
         }
     ];
 
@@ -80,24 +73,8 @@ function AboutMe() {
                         viewport={{ once: true }}
                         className="lg:col-span-7 space-y-8"
                     >
-                        <div className="space-y-6">
-                            <h3 className="text-2xl font-bold text-gray-900 dark:text-white transition-colors duration-300">
-                                Hello, I'm Manasa
-                            </h3>
-                            <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed transition-colors duration-300">
-                                I'm a passionate Full Stack Developer based in India, with a strong focus on creating 
-                                efficient and user-friendly web applications. With expertise in modern web technologies, 
-                                I bring ideas to life through clean, maintainable code and intuitive user interfaces.
-                            </p>
-                            <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed transition-colors duration-300">
-                                My journey in web development started with a curiosity about how things work on the internet, 
-                                which led me to explore various technologies and best practices. I specialize in the MERN stack 
-                                (MongoDB, Express.js, React.js, Node.js) and have experience with modern development tools and methodologies.
-                            </p>
-                        </div>
-
-                        {/* Highlights Grid */}
-                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-8">
+                         {/* Highlights Grid */}
+                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-8">
                             {highlights.map((item, index) => (
                                 <motion.div
                                     key={item.title}
@@ -123,6 +100,20 @@ function AboutMe() {
                                 </motion.div>
                             ))}
                         </div>
+                        
+                        <div className="space-y-6">
+                            <h3 className="text-2xl font-bold text-gray-900 dark:text-white transition-colors duration-300">
+                                Hello, I'm Manasa
+                            </h3>
+                            <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed transition-colors duration-300">
+                                Hi, I’m Naga Manasa Bandaru, a Full-Stack Developer and Computer Science graduate student at the University of Texas at Arlington (UTA). I hold a B.Tech in Information Technology from Vignan’s Institute of Engineering for Women and have industry experience as a Software Developer at Eunimart Omnichannel Pvt. Ltd., an e-commerce solutions company.
+                            </p>
+                            <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed transition-colors duration-300">
+                            With strong problem-solving skills, I specialize in building scalable, efficient software solutions across the stack. My expertise includes system design, performance optimization, and data-driven development, ensuring seamless and high-quality applications. I enjoy working on challenging projects that push the boundaries of technology and drive innovation.
+                            </p>
+                        </div>
+
+                       
 
                         {/* Call to Action */}
                         <div className="flex flex-wrap gap-4 mt-8">
@@ -136,7 +127,7 @@ function AboutMe() {
                                 href="#contact"
                                 className="inline-flex items-center px-6 py-3 bg-gray-200 dark:bg-gray-700 text-gray-900 dark:text-white font-semibold rounded-lg shadow-md hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-200"
                             >
-                                Get in Touch
+                                View CV
                             </a>
                         </div>
                     </motion.div>

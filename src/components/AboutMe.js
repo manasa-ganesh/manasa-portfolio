@@ -16,12 +16,12 @@ function AboutMe() {
         { 
             icon: AcademicCapIcon, 
             title: "Education",
-            description: "Vignan University (2019–2023)"
+            description: "Masters in Computer Science, University of Texas at Arlington"
         },
         { 
             icon: GlobeAltIcon, 
             title: "Experience",
-            description: "Internship at Eunimart"
+            description: "Interned as a Software Developer at Eunimart Omnichannel Pvt. Ltd."
         }
     ];
 

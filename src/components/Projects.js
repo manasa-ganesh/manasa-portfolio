@@ -11,7 +11,7 @@ function Projects() {
     const projects = [
         {
             title: 'A to Z E-Commerce',
-            description: 'A full-stack e-commerce platform built with React, Node.js, and MongoDB. Features include user authentication, product management, shopping cart, and payment integration.',
+            description: 'Developed a full-stack e-commerce platform with user authentication, product management, secure payments, and an intuitive shopping experience.',
             technologies: ['React.js', 'Firebase', 'Material-UI', 'Redux'],
             github: 'https://github.com/eswarpavan664/ATOZAPP',
             live: 'https://atozmart.netlify.app/',
@@ -19,7 +19,7 @@ function Projects() {
         },
         {
             title: 'Ashray Ladies Hostel',
-            description: 'A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
+            description: 'Developed a hostel management system enabling online booking, resident tracking, payment processing, and admin control for seamless operations.',
             technologies: ['React.js', 'Firebase', 'Material-UI', 'Redux'],
             github: 'https://github.com/eswarpavan664/Ashrayladieswebsite',
             live: 'https://ashrayladieshostel.netlify.app/',
@@ -27,7 +27,7 @@ function Projects() {
         },
         {
             title: 'Resume Builder',
-            description: 'A weather dashboard that provides real-time weather information, forecasts, and interactive maps using multiple weather APIs.',
+            description: 'Developed a dynamic web tool for generating professional resumes with customizable templates, real-time preview, and PDF export functionality.',
             technologies: ['React.js', 'Firebase', 'Material-UI', 'Redux'],
             github: 'https://github.com/eswarpavan664/Resume',
             live: 'https://quizzical-ride-42ae61.netlify.app/',
@@ -35,7 +35,7 @@ function Projects() {
         },
         {
             title: 'Karthikeya Flex',
-            description: 'A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
+            description: 'Developed an online flex printing service with customizable templates, order management, price estimation, and secure online payment integration.',
             technologies: ['React.js', 'Firebase', 'Material-UI', 'Redux'],
             github: 'https://github.com/eswarpavan664/ProjectCards',
             live: 'https://benevolent-valkyrie-654765.netlify.app/',
@@ -43,7 +43,7 @@ function Projects() {
         },
         {
             title: 'LMS (Learning Management System)',
-            description: 'A weather dashboard that provides real-time weather information, forecasts, and interactive maps using multiple weather APIs.',
+            description: 'Developed a platform for course management, student enrollment, progress tracking, and interactive learning with quizzes and certifications.',
             technologies: ['React.js', 'Firebase', 'Material-UI', 'Redux'],
             github: 'https://github.com/eswarpavan664/CSCODENZLMS',
             live: 'https://cscodenzlms.netlify.app/',

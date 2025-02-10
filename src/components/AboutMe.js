@@ -10,6 +10,7 @@ import {
     GlobeAltIcon
 } from '@heroicons/react/24/outline';
 import profileImage from '../assets/WhatsApp Image 2025-02-06 at 8.37.01 PM.jpeg';
+import pdfLink from "../assets/Naga Manasa Bandaru CV.pdf"
 
 function AboutMe() {
     const highlights = [
@@ -124,11 +125,14 @@ function AboutMe() {
                                 View My Work
                             </a>
                             <a
-                                href="#contact"
+                                href={`${pdfLink}`}  // Replace with the actual PDF file path
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className="inline-flex items-center px-6 py-3 bg-gray-200 dark:bg-gray-700 text-gray-900 dark:text-white font-semibold rounded-lg shadow-md hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-200"
                             >
                                 View CV
                             </a>
+
                         </div>
                     </motion.div>
                 </div>

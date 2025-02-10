@@ -1,32 +1,54 @@
 import { motion } from 'framer-motion';
 import { CodeBracketIcon, ArrowTopRightOnSquareIcon } from '@heroicons/react/24/outline';
+import AtoZcart from '../assets/atozmart.png';
+import LadiesHostel from "../assets/ladies hostel.png"
+import ResumeBuilder from "../assets/resume.png"
+import KarthikeyaFlex from "../assets/flex.png"
+import LMS from "../assets/codeenz.png"
+import {Tooltip} from "@mui/material"
 
 function Projects() {
     const projects = [
         {
-            title: 'E-Commerce Platform',
+            title: 'A to Z E-Commerce',
             description: 'A full-stack e-commerce platform built with React, Node.js, and MongoDB. Features include user authentication, product management, shopping cart, and payment integration.',
-            technologies: ['React.js', 'Node.js', 'MongoDB', 'Express.js', 'Stripe'],
-            github: '#',
-            live: '#',
-            image: 'https://images.unsplash.com/photo-1557821552-17105176677c?ixlib=rb-4.0.3'
+            technologies: ['React.js', 'Firebase', 'Material-UI', 'Redux'],
+            github: 'https://github.com/eswarpavan664/ATOZAPP',
+            live: 'https://atozmart.netlify.app/',
+            image: AtoZcart
         },
         {
-            title: 'Task Management App',
+            title: 'Ashray Ladies Hostel',
             description: 'A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
             technologies: ['React.js', 'Firebase', 'Material-UI', 'Redux'],
-            github: '#',
-            live: '#',
-            image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3'
+            github: 'https://github.com/eswarpavan664/Ashrayladieswebsite',
+            live: 'https://ashrayladieshostel.netlify.app/',
+            image: LadiesHostel
         },
         {
-            title: 'Weather Dashboard',
+            title: 'Resume Builder',
             description: 'A weather dashboard that provides real-time weather information, forecasts, and interactive maps using multiple weather APIs.',
-            technologies: ['React.js', 'OpenWeather API', 'Chart.js', 'Tailwind CSS'],
-            github: '#',
-            live: '#',
-            image: 'https://images.unsplash.com/photo-1592210454359-9043f067919b?ixlib=rb-4.0.3'
+            technologies: ['React.js', 'Firebase', 'Material-UI', 'Redux'],
+            github: 'https://github.com/eswarpavan664/Resume',
+            live: 'https://quizzical-ride-42ae61.netlify.app/',
+            image: ResumeBuilder
         },
+        {
+            title: 'Karthikeya Flex',
+            description: 'A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
+            technologies: ['React.js', 'Firebase', 'Material-UI', 'Redux'],
+            github: 'https://github.com/eswarpavan664/ProjectCards',
+            live: 'https://benevolent-valkyrie-654765.netlify.app/',
+            image: KarthikeyaFlex
+        },
+        {
+            title: 'LMS (Learning Management System)',
+            description: 'A weather dashboard that provides real-time weather information, forecasts, and interactive maps using multiple weather APIs.',
+            technologies: ['React.js', 'Firebase', 'Material-UI', 'Redux'],
+            github: 'https://github.com/eswarpavan664/CSCODENZLMS',
+            live: 'https://cscodenzlms.netlify.app/',
+            image: LMS
+        }
     ];
 
     return (
@@ -63,9 +85,11 @@ function Projects() {
                                 />
                             </div>
                             <div className="p-6">
-                                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2 transition-colors duration-300">
-                                    {project.title}
-                                </h3>
+                                <Tooltip title={project.title}>
+                                    <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2 line-clamp-1 transition-colors duration-300">
+                                        {project.title}
+                                    </h3>
+                                </Tooltip>
                                 <p className="text-gray-600 dark:text-gray-300 mb-4 transition-colors duration-300">
                                     {project.description}
                                 </p>

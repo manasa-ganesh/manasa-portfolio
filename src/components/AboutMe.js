@@ -16,12 +16,12 @@ function AboutMe() {
         { 
             icon: AcademicCapIcon, 
             title: "Education",
-            description: "Proficient in both frontend and backend technologies"
+            description: "Vignan University (2019–2023)"
         },
         { 
             icon: GlobeAltIcon, 
             title: "Experience",
-            description: "Strong analytical and debugging skills"
+            description: "Internship at Eunimart"
         }
     ];
 

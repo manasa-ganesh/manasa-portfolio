@@ -17,7 +17,7 @@ function Welcome() {
                         Hi, I'm <span className="bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">Manasa</span>
                     </h1>
                     <p className="text-xl sm:text-2xl text-gray-600 dark:text-gray-300 mb-8 transition-colors duration-300">
-                        Full Stack Developer | UI/UX Designer | Problem Solver
+                        Frontend Developer | Problem Solver
                     </p>
                     <motion.div
                         initial={{ opacity: 0 }}

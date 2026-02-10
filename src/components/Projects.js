@@ -10,45 +10,61 @@ import {Tooltip} from "@mui/material"
 function Projects() {
     const projects = [
         {
-            title: 'A to Z E-Commerce',
-            description: 'Developed a full-stack e-commerce platform with user authentication, product management, secure payments, and an intuitive shopping experience.',
-            technologies: ['React.js', 'Firebase', 'Material-UI', 'Redux'],
-            github: 'https://github.com/eswarpavan664/ATOZAPP',
-            live: 'https://atozmart.netlify.app/',
-            image: AtoZcart
+            title: 'SmartTrack – Real-Time Delivery Analytics Platform',
+            description: 'Developed a real-time delivery analytics platform using React to provide clear operational visibility and actionable delivery insights. Built supporting backend services with Node.js and REST APIs, enabling secure data processing and seamless system integration. Implemented AWS-based infrastructure to support scalable deployments and reliable data handling workflows across environments. Optimized data flow and frontend rendering logic to improve dashboard responsiveness and overall application performance.',
+            technologies: ['React', 'Node.js', 'REST APIs', 'AWS'],
+            github: '#',
+            live: '#',
+            image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=450&fit=crop'
         },
         {
-            title: 'Ashray Ladies Hostel',
-            description: 'Developed a hostel management system enabling online booking, resident tracking, payment processing, and admin control for seamless operations.',
-            technologies: ['React.js', 'Firebase', 'Material-UI', 'Redux'],
-            github: 'https://github.com/eswarpavan664/Ashrayladieswebsite',
-            live: 'https://ashrayladieshostel.netlify.app/',
-            image: LadiesHostel
+            title: 'EduMentor – Learning & Assessment Platform',
+            description: 'Designed interactive learning dashboards using React to support student progress tracking and performance analysis. Integrated backend APIs to enable secure data exchange and assessment-related workflows throughout the platform. Implemented role-based views and analytics to effectively support both instructors and learners. Enhanced overall usability through iterative UI improvements driven by user feedback and usage insights.',
+            technologies: ['React', 'Backend APIs', 'Role-based access', 'Analytics'],
+            github: '#',
+            live: '#',
+            image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=450&fit=crop'
         },
-        {
-            title: 'Resume Builder',
-            description: 'Developed a dynamic web tool for generating professional resumes with customizable templates, real-time preview, and PDF export functionality.',
-            technologies: ['React.js', 'Firebase', 'Material-UI', 'Redux'],
-            github: 'https://github.com/eswarpavan664/Resume',
-            live: 'https://quizzical-ride-42ae61.netlify.app/',
-            image: ResumeBuilder
-        },
-        {
-            title: 'Karthikeya Flex',
-            description: 'Developed an online flex printing service with customizable templates, order management, price estimation, and secure online payment integration.',
-            technologies: ['React.js', 'Firebase', 'Material-UI', 'Redux'],
-            github: 'https://github.com/eswarpavan664/ProjectCards',
-            live: 'https://benevolent-valkyrie-654765.netlify.app/',
-            image: KarthikeyaFlex
-        },
-        {
-            title: 'LMS (Learning Management System)',
-            description: 'Developed a platform for course management, student enrollment, progress tracking, and interactive learning with quizzes and certifications.',
-            technologies: ['React.js', 'Firebase', 'Material-UI', 'Redux'],
-            github: 'https://github.com/eswarpavan664/CSCODENZLMS',
-            live: 'https://cscodenzlms.netlify.app/',
-            image: LMS
-        }
+        // {
+        //     title: 'A to Z E-Commerce',
+        //     description: 'Developed a full-stack e-commerce platform with user authentication, product management, secure payments, and an intuitive shopping experience.',
+        //     technologies: ['React.js', 'Firebase', 'Material-UI', 'Redux'],
+        //     github: 'https://github.com/eswarpavan664/ATOZAPP',
+        //     live: 'https://atozmart.netlify.app/',
+        //     image: AtoZcart
+        // },
+        // {
+        //     title: 'Ashray Ladies Hostel',
+        //     description: 'Developed a hostel management system enabling online booking, resident tracking, payment processing, and admin control for seamless operations.',
+        //     technologies: ['React.js', 'Firebase', 'Material-UI', 'Redux'],
+        //     github: 'https://github.com/eswarpavan664/Ashrayladieswebsite',
+        //     live: 'https://ashrayladieshostel.netlify.app/',
+        //     image: LadiesHostel
+        // },
+        // {
+        //     title: 'Resume Builder',
+        //     description: 'Developed a dynamic web tool for generating professional resumes with customizable templates, real-time preview, and PDF export functionality.',
+        //     technologies: ['React.js', 'Firebase', 'Material-UI', 'Redux'],
+        //     github: 'https://github.com/eswarpavan664/Resume',
+        //     live: 'https://quizzical-ride-42ae61.netlify.app/',
+        //     image: ResumeBuilder
+        // },
+        // {
+        //     title: 'Karthikeya Flex',
+        //     description: 'Developed an online flex printing service with customizable templates, order management, price estimation, and secure online payment integration.',
+        //     technologies: ['React.js', 'Firebase', 'Material-UI', 'Redux'],
+        //     github: 'https://github.com/eswarpavan664/ProjectCards',
+        //     live: 'https://benevolent-valkyrie-654765.netlify.app/',
+        //     image: KarthikeyaFlex
+        // },
+        // {
+        //     title: 'LMS (Learning Management System)',
+        //     description: 'Developed a platform for course management, student enrollment, progress tracking, and interactive learning with quizzes and certifications.',
+        //     technologies: ['React.js', 'Firebase', 'Material-UI', 'Redux'],
+        //     github: 'https://github.com/eswarpavan664/CSCODENZLMS',
+        //     live: 'https://cscodenzlms.netlify.app/',
+        //     image: LMS
+        // }
     ];
 
     return (
@@ -67,7 +83,7 @@ function Projects() {
                     <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto"></div>
                 </motion.div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
                     {projects.map((project, index) => (
                         <motion.div
                             key={project.title}

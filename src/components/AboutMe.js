@@ -13,17 +13,16 @@ import profileImage from '../assets/WhatsApp Image 2025-02-06 at 8.37.01 PM.jpeg
 import pdfLink from "../assets/Naga Manasa Bandaru CV.pdf"
 
 function AboutMe() {
-    const highlights = [
-        { 
-            icon: AcademicCapIcon, 
-            title: "Education",
-            description: "Masters in Computer Science, University of Texas at Arlington"
-        },
-        { 
-            icon: GlobeAltIcon, 
-            title: "Experience",
-            description: "Interned as a Software Developer at Eunimart Omnichannel Pvt. Ltd."
-        }
+    const education = {
+        icon: AcademicCapIcon,
+        title: "Education",
+        description: "Masters in Computer Science, University of Texas at Arlington"
+    };
+
+    const experience = [
+        { title: "SDE I - Frontend", description: "FedEx | Dallas – Fort Worth, TX | Jan 2025 - Present" },
+        { title: "Frontend Developer", description: "Dell Technologies | Jan 2022 - Dec 2023 | Hyderabad, India" },
+        { title: "Full-Stack Developer", description: "Ojascore Solutions | Mar 2021 – Dec 2021 | Hyderabad, India" }
     ];
 
     return (
@@ -74,32 +73,56 @@ function AboutMe() {
                         viewport={{ once: true }}
                         className="lg:col-span-7 space-y-8"
                     >
-                         {/* Highlights Grid */}
-                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-8">
-                            {highlights.map((item, index) => (
-                                <motion.div
-                                    key={item.title}
-                                    initial={{ opacity: 0, y: 20 }}
-                                    whileInView={{ opacity: 1, y: 0 }}
-                                    transition={{ duration: 0.5, delay: index * 0.1 }}
-                                    viewport={{ once: true }}
-                                    className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-lg transition-all duration-300"
-                                >
-                                    <div className="flex items-start space-x-4">
-                                        <div className="flex-shrink-0">
-                                            <item.icon className="h-6 w-6 text-blue-500" />
-                                        </div>
-                                        <div>
-                                            <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-1 transition-colors duration-300">
-                                                {item.title}
-                                            </h4>
-                                            <p className="text-gray-600 dark:text-gray-300 text-sm transition-colors duration-300">
-                                                {item.description}
-                                            </p>
-                                        </div>
+                         {/* Education - full width */}
+                         <div className="mt-8">
+                            <motion.div
+                                initial={{ opacity: 0, y: 20 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                transition={{ duration: 0.5 }}
+                                viewport={{ once: true }}
+                                className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-lg transition-all duration-300"
+                            >
+                                <div className="flex items-start space-x-4">
+                                    <div className="flex-shrink-0">
+                                        <education.icon className="h-6 w-6 text-blue-500" aria-hidden />
                                     </div>
-                                </motion.div>
-                            ))}
+                                    <div>
+                                        <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-1 transition-colors duration-300">
+                                            {education.title}
+                                        </h4>
+                                        <p className="text-gray-600 dark:text-gray-300 text-sm transition-colors duration-300">
+                                            {education.description}
+                                        </p>
+                                    </div>
+                                </div>
+                            </motion.div>
+                        </div>
+
+                        {/* Experience - separate section, vertical list */}
+                        <div className="space-y-4">
+                            <h4 className="text-lg font-semibold text-gray-900 dark:text-white flex items-center gap-2 transition-colors duration-300">
+                                <GlobeAltIcon className="h-5 w-5 text-blue-500 flex-shrink-0" />
+                                Experience
+                            </h4>
+                            <div className="space-y-3 pl-7 border-l-2 border-blue-500/30 dark:border-blue-400/30">
+                                {experience.map((item, index) => (
+                                    <motion.div
+                                        key={item.title}
+                                        initial={{ opacity: 0, x: -10 }}
+                                        whileInView={{ opacity: 1, x: 0 }}
+                                        transition={{ duration: 0.4, delay: index * 0.08 }}
+                                        viewport={{ once: true }}
+                                        className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 -ml-[2px] border-l-2 border-transparent hover:border-blue-500/50"
+                                    >
+                                        <h5 className="text-base font-semibold text-gray-900 dark:text-white mb-0.5 transition-colors duration-300">
+                                            {item.title}
+                                        </h5>
+                                        <p className="text-gray-600 dark:text-gray-300 text-sm transition-colors duration-300">
+                                            {item.description}
+                                        </p>
+                                    </motion.div>
+                                ))}
+                            </div>
                         </div>
                         
                         <div className="space-y-6">

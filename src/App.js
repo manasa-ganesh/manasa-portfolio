@@ -9,6 +9,9 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 
 function App() {
+
+  console.log("App component rendered");
+  
   return (
     <ThemeProvider>
       <Router>

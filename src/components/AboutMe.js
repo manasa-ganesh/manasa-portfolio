@@ -79,10 +79,10 @@ function AboutMe() {
                                 Hello, I'm Manasa
                             </h3>
                             <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed transition-colors duration-300">
-                                Hi, I'm Naga Manasa Bandaru, a Full-Stack Developer and Computer Science graduate student at the University of Texas at Arlington (UTA). I hold a B.Tech in Information Technology from Vignan's Institute of Engineering for Women and have industry experience as a Software Developer at Eunimart Omnichannel Pvt. Ltd., an e-commerce solutions company.
+                                I’m a frontend-focused software engineer with around four years of experience building scalable web applications using React, Next.js, and TypeScript. I focus on turning unclear or complex requirements into clean, performant interfaces that work well at scale.
                             </p>
                             <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed transition-colors duration-300">
-                                With strong problem-solving skills, I specialize in building scalable, efficient software solutions across the stack. My expertise includes system design, performance optimization, and data-driven development, ensuring seamless and high-quality applications. I enjoy working on challenging projects that push the boundaries of technology and drive innovation.
+                                I approach problems methodically, ask the right questions early, and work closely with product and design teams to deliver practical solutions. I have working knowledge of backend fundamentals like Node.js, REST APIs, and authentication, which helps me think beyond just the UI. I care about performance, accessibility, and writing maintainable code that holds up as products grow.
                             </p>
                         </div>
                         <div className="flex flex-wrap gap-4 mt-8">

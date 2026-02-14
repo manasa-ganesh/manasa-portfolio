@@ -25,46 +25,46 @@ function Projects() {
             live: '#',
             image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=450&fit=crop'
         },
-        // {
-        //     title: 'A to Z E-Commerce',
-        //     description: 'Developed a full-stack e-commerce platform with user authentication, product management, secure payments, and an intuitive shopping experience.',
-        //     technologies: ['React.js', 'Firebase', 'Material-UI', 'Redux'],
-        //     github: 'https://github.com/eswarpavan664/ATOZAPP',
-        //     live: 'https://atozmart.netlify.app/',
-        //     image: AtoZcart
-        // },
-        // {
-        //     title: 'Ashray Ladies Hostel',
-        //     description: 'Developed a hostel management system enabling online booking, resident tracking, payment processing, and admin control for seamless operations.',
-        //     technologies: ['React.js', 'Firebase', 'Material-UI', 'Redux'],
-        //     github: 'https://github.com/eswarpavan664/Ashrayladieswebsite',
-        //     live: 'https://ashrayladieshostel.netlify.app/',
-        //     image: LadiesHostel
-        // },
-        // {
-        //     title: 'Resume Builder',
-        //     description: 'Developed a dynamic web tool for generating professional resumes with customizable templates, real-time preview, and PDF export functionality.',
-        //     technologies: ['React.js', 'Firebase', 'Material-UI', 'Redux'],
-        //     github: 'https://github.com/eswarpavan664/Resume',
-        //     live: 'https://quizzical-ride-42ae61.netlify.app/',
-        //     image: ResumeBuilder
-        // },
-        // {
-        //     title: 'Karthikeya Flex',
-        //     description: 'Developed an online flex printing service with customizable templates, order management, price estimation, and secure online payment integration.',
-        //     technologies: ['React.js', 'Firebase', 'Material-UI', 'Redux'],
-        //     github: 'https://github.com/eswarpavan664/ProjectCards',
-        //     live: 'https://benevolent-valkyrie-654765.netlify.app/',
-        //     image: KarthikeyaFlex
-        // },
-        // {
-        //     title: 'LMS (Learning Management System)',
-        //     description: 'Developed a platform for course management, student enrollment, progress tracking, and interactive learning with quizzes and certifications.',
-        //     technologies: ['React.js', 'Firebase', 'Material-UI', 'Redux'],
-        //     github: 'https://github.com/eswarpavan664/CSCODENZLMS',
-        //     live: 'https://cscodenzlms.netlify.app/',
-        //     image: LMS
-        // }
+        {
+            title: 'A to Z E-Commerce',
+            description: 'Developed a full-stack e-commerce platform with user authentication, product management, secure payments, and an intuitive shopping experience.',
+            technologies: ['React.js', 'Firebase', 'Material-UI', 'Redux'],
+            github: 'https://github.com/eswarpavan664/ATOZAPP',
+            live: 'https://atozmart.netlify.app/',
+            image: AtoZcart
+        },
+        {
+            title: 'Ashray Ladies Hostel',
+            description: 'Developed a hostel management system enabling online booking, resident tracking, payment processing, and admin control for seamless operations.',
+            technologies: ['React.js', 'Firebase', 'Material-UI', 'Redux'],
+            github: 'https://github.com/eswarpavan664/Ashrayladieswebsite',
+            live: 'https://ashrayladieshostel.netlify.app/',
+            image: LadiesHostel
+        },
+        {
+            title: 'Resume Builder',
+            description: 'Developed a dynamic web tool for generating professional resumes with customizable templates, real-time preview, and PDF export functionality.',
+            technologies: ['React.js', 'Firebase', 'Material-UI', 'Redux'],
+            github: 'https://github.com/eswarpavan664/Resume',
+            live: 'https://quizzical-ride-42ae61.netlify.app/',
+            image: ResumeBuilder
+        },
+        {
+            title: 'Karthikeya Flex',
+            description: 'Developed an online flex printing service with customizable templates, order management, price estimation, and secure online payment integration.',
+            technologies: ['React.js', 'Firebase', 'Material-UI', 'Redux'],
+            github: 'https://github.com/eswarpavan664/ProjectCards',
+            live: 'https://benevolent-valkyrie-654765.netlify.app/',
+            image: KarthikeyaFlex
+        },
+        {
+            title: 'LMS (Learning Management System)',
+            description: 'Developed a platform for course management, student enrollment, progress tracking, and interactive learning with quizzes and certifications.',
+            technologies: ['React.js', 'Firebase', 'Material-UI', 'Redux'],
+            github: 'https://github.com/eswarpavan664/CSCODENZLMS',
+            live: 'https://cscodenzlms.netlify.app/',
+            image: LMS
+        }
     ];
 
     return (
